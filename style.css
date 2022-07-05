@@ -11,15 +11,20 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
+
 }
+
+
+
 
 .half-width {
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+
 
 }
 
@@ -54,4 +59,40 @@ h3 {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.pe-ter {
+    color: royalblue;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px blue;
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    border-left: 7px solid red;
+
+}
+
+.Experiences-Area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+#mo-tion {
+    border-left: 7px solid rgb(95, 245, 9);
+
+}
+
+footer p {
+    text-align: center;
 }
